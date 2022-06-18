@@ -2,7 +2,7 @@
 
 # Project 6 | Descriptive, predictive analysis and visualization in Tableau
 
-
+### Edgar Tomé Data Analytics June 2021
 
 ## Content
 - [Introduction](#introduction)
