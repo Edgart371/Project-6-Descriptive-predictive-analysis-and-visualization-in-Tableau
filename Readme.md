@@ -5,62 +5,97 @@
 ### Edgar Tomé Data Analytics June 2021
 
 ## Content
-- [Introduction](#introduction)
+- [Project Description](#projecdtescription)
 - [Project Goal](#project-goal)
-- [Requirements](#requirements)
-- [Necessary Deliverables](#necessary-deliverables)
-- [Presentation](#presentation)
-- [Suggested Ways to Get Started](#suggested-ways-to-get-started)
+- [Work Process](#workProcess)
+- [Widget Description / Dashboard](#widget-description-/-dashboard)
+- [Concluions](#concluions)
 
+## Project Description
 
-## Introduction
-
-This project aims to practice in descriptive and prescriptive statistics  and dashboards creation with Tableau.
-
-
+The aim of this project was to practice descriptive and prescriptive statistics, to presented in dashboards creation with Tableau.
 
 
 ## Project Goal
-The goals of this project is to develop the dashboard in Tableau. 
-The dashboard should reflect the descriptive and predictive analysis of data and explain the state of the payments.
+
+The goals of this project was to develop the dashboard in Tableau, that reflects the descriptive and predictive analysis of data and explain the state of the payments for PayLocator of SWIFT.
+
+
+## Widget Description / Dashboard
+
+The Dasboardes are divided in three separated areas, composed by the diferent widgets, providing the information of the key indicatores for the perfomance on realizing bank transfers around the world, by tracking the complete the transations in the minium time possible. To give the final cliente the best result when choose the bank.
+
+### Resume of the principal key performance indicatores 
+
+#### Widget 1 - Average time
+
+Average time of transations was calculated in excell with the diference between max and min dates divided by 24 hours plus the hours of the transations, for each transation.
+
+#### Widget 2 - Average days
+
+Average days of transations was calculated in excell with the diference between max and min dates of the ransations, for each transation.
+
+#### Widget 3 - Number of transations
+
+Number of transations in the periode analysed, to know the size of sample, count the number of distict transations, calculated in Tableau.
+
+#### Widget 4 - Percentage Charged
+
+The percentage charged aplied to the value in transations by average, calculated in Tableau. Calculated by the sum of the carges divided by the total amout transation.
+
+#### Widget 5 - Percentage Transations Completed
+
+The percentage of transations completed, calculated in Tableau, counting the number of completed transtions divided by the total of new transtions.
+
+#### Widget 6 - Percentage Transations Not Completed
+
+The percentage of transations not completed, calculated in Tableau, counting the number of processing and pending transtions divided by the total of new transtions.
+
+#### Widget 7 - Percentage Transations Cancelled
+
+The percentage of transations cancelled, calculated in Tableau, counting the number of cancelled transtions divided by the total of new transtions.
+
+#### Widget 8 - Number of steps per transation
+
+The number of steps was calculated in excell, by counting the number of processe in diferent banks for the unique transations reach the final distacion.
+
+#### Widget 9 - Number of days by country
+
+The number of days by country was calculated in Tableau, by countig the days that take for the unique transations by country.
+
+#### Widget 10 - Number of transations by country
+
+The number of transations by country was calculated in Tableau, by countig the unique transations by country.
+
+#### Widget 11 - Average time of transations by bank
+
+The average time of transations by bank, was calculated in Tableu, ading the graph the view of hte number of days by status of the transation.
+
+#### Widget 12 - Value charge by bank and number of transations
+
+The total value charge by bank and number of transations, was calculated in excell, and transposed in Tableu where retring the inforation of the amout charded and quantity of transations by bank.
+
+#### Widget 13 - Amout transations by country
+
+The amout of transations by country, was calculated in Tableu, by sum of the value by distinct bank.
+
+#### Widget 14 - Forecast average charges transations
+
+Taking the data collected, for the average charges, that was calculated first in execll the carges then the averge in tableu, by adding time to the values, the tableu can perform a forecast indicator for the value of average charges transtions for the next six mounths with a area of chading, that gives with 95% percentage confidance the interval of values.
+
+### Widget 15 - Forecast average days transations
+
+Taking the data collected, for the average days transations, that was calculated first in execll the days transations then the averge in tableu, by adding time to the values, the tableu can perform a forecast indicator for the value of days transations for the next six mounths with a area of chading, that gives with 95% percentage confidance the interval of values.
+
+### Widget 15 - Forecast total time transations
+
+Taking the data collected, for the total time transations, that was calculated first in execll the time transations then the total in tableu, by adding time to the values, the tableu can perform a forecast indicator for the total time transations  for the next six mounths with a area of chading, that gives with 95% percentage confidance the interval of values.
 
 
 
+## Concluions
 
-## Requirements
+From the data colected and the analysis perform first in excell and then in Tableu with visualizations, we can conclued that the service, can provide transations arround the world in less that two days in average, for that premium service the percentag of charges are very high, taking in considetarion taht the transations not completed are very high, the company should try to find the problem and fixed.
+The country with moore transtions, moore value of transations is the USA.
+To realize a better forcast, is necessary moore data for a bigger periode of time.
 
-
-* We are going to use offline Kanban board for the project management. 
-* The domain is related to the crossborder payments, please read the recommended sourses to get knowledge about the subject.
-* Examine the dataset for the possible issues
-* Develop the system of Key Performance Indicators (or the system of widgets that should be shown). Please keep in mind the must-have answers:
-- Average time for transaction
-- Status of payment
-- Total charges per period
-- Payment status forecast
-- Issues in correspondence chain
-- Probability of delay
-- Troubles forecast
-* Develop the idea of your dashboard:
- - what exactly you want to show?
- - what should be the layout?
- - which widgets represent the most powerful insights?
-* Your dashboard should give the possibility to filter the data
-* Please note, that you need to have at least 12 widgets that describe your data.
-* Please note, you have at least 2 widgets that should reflect forecasted values.
-* Describe the idea of the dashboard and each widget (what you want to show, why the particular chart is chosen), calculations in the readme file.
-* After your dashboard is ready, please, create a presentation.
-
-Non-functional requirements:
-1. Use the corporate colors of the product
-2. Add logo of the product
-3. Add the SWIFT compatible label
-Please check the website https://paylocator.com/ for having mentioned detailes.
-
-## Necessary Deliverables
-
-The following deliverables should be pushed to your Github repo for this chapter.
-1. code
-2. Tableau dashboard
-3. final dataset
-4. readme with widgets explanation
